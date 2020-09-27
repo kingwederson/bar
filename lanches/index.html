@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.png" />
     <title>Preço dos lanches</title>
     <style>
+        @media only screen and (max-width: 600px) {
+            div.menu{
+                columns: 4;
+            }
+        }
         body{
             max-width:190mm;
             border:1px solid white;
@@ -33,7 +39,7 @@
             text-align: center;
         }
         div.menu{
-            columns: 4;
+            column-width: 160px;
         }
         div.produto{
             float:top;
@@ -184,6 +190,11 @@
                 <li>Duas mussarela</li>
             </ol>
         </div>
+        <div class="produto">
+            <img src="index.jpg">
+            <p>http://bar.<wbr>wederson.net.br<wbr>/lanches/</p>
+        </div>
     </div>
+    
 </body>
 </html>
